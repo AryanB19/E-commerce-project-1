@@ -14,7 +14,6 @@ app.use(express.json());
 app.use(cors());
 
 // Databse Connection with Mongoose
-// mongoose.connect("mongodb+srv://CoderAryan19:Aryan90561@cluster0.7jhebxn.mongodb.net/e-commerce");
 mongoose.connect(process.env.URI);
 
 // API Creation
